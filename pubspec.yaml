@@ -1,0 +1,48 @@
+name: arrive_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.36
+  audio_session: ^0.1.16
+  shared_preferences: ^2.0.15
+
+  cupertino_icons: ^1.0.8
+  smooth_page_indicator: ^2.0.1
+  country_code_picker: ^3.4.1
+  flutter_localization: ^0.3.3
+  url_launcher: ^6.1.0
+  image_picker: ^0.8.5+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.14.4
+  flutter_lints: ^6.0.0
+
+# 🔥 APP LOGO CONFIG (ROOT LEVEL — YAHI SAHI JAGA HAI)
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/arrive app logo.jpg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/music/
+
+  fonts:
+    - family: Orbikular
+      fonts:
+        - asset: assets/fonts/OrbikularTRIAL-Bold-BF6711d4be4f26b.otf
